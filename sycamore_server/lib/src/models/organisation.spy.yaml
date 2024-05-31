@@ -1,0 +1,21 @@
+### A single organisation in the server.
+class: MemberOrganisation
+fields:
+  ### The name of this organisation.
+  name: String
+  ### The postcode where the organisation resides.
+  postcode: String
+  ### The street address of this organisation.
+  streetAddress: String
+  ### The city where the organisation is based.
+  city: String
+  ### The country which this organisation works out of.
+  country: String
+  ### The main phone number for this organisation.
+  phoneNumber: String
+  ### The primary contact email address for this organisation.
+  emailAddress: String
+  ### The website address for this organisation.
+  website: String
+  ### The date this organisation was created.
+  createdAt: DateTime
